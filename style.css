@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Universal styles ---------- */
+
+header, footer, section {
+    padding: 5%;
+    border: 1px solid grey;
+}
+
+/* ---------- Utility styles ---------- */
+
+.padded   { padding: 5%; }
+.padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem; }
+
+/* ---------- Typography styles ---------- */
+
+/* ---------- Header styles ---------- */
+
+/* ---------- Footer styles ---------- */
+
+/* ---------- Image styles ---------- */
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.square     { padding-bottom: 100%}
+.landscape  { padding-bottom: 60% }
+
+/* ---------- Blog styles ---------- */
+
+.intro {
+    padding-bottom: 1rem;
+}
+
+.tag {
+    text-transform: uppercase;
+    padding: 0.2rem;
+    border: 1px solid grey;
+    display: inline-block;
+}
